@@ -1,0 +1,353 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WoWo Pals 隱私權政策 / Privacy Policy</title><style>body{font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1.2rem;line-height:1.75;color:#2b2622;background:#fbf8f2}
+h2{border-bottom:2px solid #e8dcc8;padding-bottom:.3rem;margin-top:2.5rem}h3{margin-top:1.8rem}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem}th,td{border:1px solid #e0d6c4;padding:.45rem .6rem;vertical-align:top;text-align:left}th{background:#f3ead9}
+code{background:#f1ebe0;padding:.1rem .3rem;border-radius:4px;font-size:.9em}hr{border:0;border-top:1px dashed #d8ccb6;margin:3rem 0}a{color:#7a4fb5}</style></head><body>
+<p><a href="./">← WoWo Pals</a> · <a href="#wowo-pals-privacy-policy">English</a></p>
+<h2 id="wowo-pals">WoWo Pals（窩窩公仔櫃）隱私權政策</h2>
+<p>生效日期：2026-11-18</p>
+<p>WoWo Pals（窩窩公仔櫃）（以下稱「本 App」）是一個在 Windows 桌面上顯示小公仔的程式。我們很重視你的隱私，所以把本 App 會讀什麼、存什麼、連到哪裡都寫在這裡。</p>
+<h3 id="_1">一句話版本</h3>
+<p>本 App <strong>沒有帳號、沒有廣告</strong>，你的設定、照片、行事曆都只存在你自己的電腦裡。唯一會送出去的是一份<strong>匿名統計</strong>：你第一次設定時選了哪一櫃公仔、7 天後還開著哪一櫃（不含任何能認出你的資料，見第 5 節）；這個統計在「公仔小屋」選單裡<strong>可以關掉</strong>，關掉之後什麼都不送。</p>
+<h3 id="1">1. 我們不收集的東西</h3>
+<ul>
+<li>我們沒有自己的伺服器；匿名統計只送到 Google Analytics（第 5 節），內容只有那幾個欄位。</li>
+<li>不收集姓名、Email、電話、位置、裝置識別碼、電腦名稱、使用者名稱。</li>
+<li>不記錄你按了哪些鍵、打了什麼字、逛了哪些網站。</li>
+<li>不使用廣告或當機回報服務，也不呼叫任何 AI 服務。</li>
+</ul>
+<h3 id="2">2. 存在你電腦裡的資料</h3>
+<p>本 App 只在你的電腦上存這些東西，位置是 <code>%LOCALAPPDATA%\DeskPals</code>（Microsoft Store 版也可能在 Windows 為 App 準備的私人資料夾裡）：</p>
+<table>
+<thead>
+<tr>
+<th>資料</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你的設定（選了哪一櫃、櫃子位置、各功能開關、提醒時間）</td>
+<td>下次打開還是一樣</td>
+</tr>
+<tr>
+<td>公仔的好感度、摸了幾次、今天的小結（例如吃了幾顆番茄）</td>
+<td>公仔的反應和今天的小結</td>
+</tr>
+<tr>
+<td>你自己設的提醒、搶票／搶課時間、考試日期、作業「交了」的紀錄</td>
+<td>時間到提醒你</td>
+</tr>
+<tr>
+<td>你貼上的學校行事曆網址，和下載下來的行事曆內容（暫存檔）</td>
+<td>上課、作業提醒</td>
+</tr>
+<tr>
+<td>你用來做公仔的照片，和做好的公仔圖</td>
+<td>顯示你的公仔</td>
+</tr>
+<tr>
+<td>搗蛋功能的次數（例如這個月「購物警察」哭了幾次）、哪幾個搗蛋你看過說明並打開過</td>
+<td>公仔的台詞；看過說明的不再重複問</td>
+</tr>
+<tr>
+<td>匿名統計的開關、第一次設定的日期、兩個統計事件送過了沒（<code>anon-stats.txt</code>）</td>
+<td>只送一次、算第 7 天；<strong>不存任何 ID</strong></td>
+</tr>
+</tbody>
+</table>
+<p>另外：
+- 程式運作紀錄寫在 <code>%TEMP%\desk-pals.log</code>（時間和程式事件，例如「提醒已送出」；偶爾會有網站名稱，例如對時用的網站。不含你的行事曆內容、照片或視窗內容。這個檔案只在你的電腦裡）。
+- 你按「做分享短片」時，GIF 會存到「圖片\Desk Pals」資料夾；要不要傳給別人由你決定。
+- 你按「匯出」時，公仔（含你用的照片）會存成一個 <code>.deskpal</code> 檔案，存在你選的位置。</p>
+<p><strong>刪除方式</strong>：在 Windows「設定 → 應用程式」解除安裝本 App（Microsoft Store 版會一起刪掉 Windows 為它準備的私人資料夾）；如要連同其他資料一起刪掉，再刪除 <code>%LOCALAPPDATA%\DeskPals</code> 資料夾（和「圖片\Desk Pals」裡你做的短片）。已經送出的匿名統計沒有任何 ID 可以對回你，所以我們也無法針對某一個人刪除；它會在保留期限（2 個月）後由 Google Analytics 自動刪除。</p>
+<p><strong>學校行事曆網址要小心</strong>：很多學校、Google 日曆的行事曆網址是「私密網址」，拿到的人就看得到你的行程。本 App 只用它讀你的行事曆，不會傳給任何人；這個網址以一般文字檔存在上面的資料夾，請不要把這個資料夾分享給別人。</p>
+<h3 id="3-app">3. 本 App 會在你電腦上讀取的資訊（只在本機使用，不存、不送出）</h3>
+<table>
+<thead>
+<tr>
+<th>讀什麼</th>
+<th>為什麼</th>
+<th>什麼時候</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>桌面上其他視窗的位置和大小</td>
+<td>讓公仔站在視窗上面走路</td>
+<td>開著的時候</td>
+</tr>
+<tr>
+<td>視窗標題</td>
+<td>偵測你在分享螢幕、簡報，好讓公仔躲起來；「購物警察」判斷前景是不是購物網站</td>
+<td>開著的時候；購物警察只在開關打開時</td>
+</tr>
+<tr>
+<td>滑鼠位置、多久沒用鍵盤滑鼠</td>
+<td>公仔看你、你離開電腦時當成休息</td>
+<td>開著的時候</td>
+</tr>
+<tr>
+<td>下載資料夾裡新出現的檔案名稱</td>
+<td>「下載完成」提醒</td>
+<td>開著的時候</td>
+</tr>
+<tr>
+<td>CPU、記憶體、硬碟剩餘空間、正在執行的程式名稱</td>
+<td>「電腦小狀況」提醒（例如哪個程式最吃 CPU）；偵測 AI 寫程式工具在不在跑</td>
+<td>開著的時候</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4">4. 搗蛋功能（<strong>全部預設關閉</strong>；每一種都要你在「公仔小屋 → 娛樂 → 搗蛋」自己打開）</h3>
+<p>第一次打開某一種時，會先跳一個說明視窗，寫清楚它會做什麼、怎麼停、不會做什麼，你按「好，打開」才會開始；按「先不要」就維持關閉。之後隨時可以在同一個地方關掉。（從舊版升級的使用者，維持你原本的開關設定。）</p>
+<ul>
+<li><strong>搶游標</strong>：滑鼠很久沒動時，公仔把游標拖著走一小段；你一動滑鼠或按鍵就放手。</li>
+<li><strong>下班清場</strong>：下班時間後把前面幾個視窗縮小到工作列（不會關閉任何程式），點公仔就全部叫回來。演出用的「視窗畫面」只是那一刻的樣子，只放在記憶體裡，演完就丟，不存檔、不送出。</li>
+<li><strong>購物警察</strong>：只看前景視窗的標題是不是購物網站，不記錄你逛了什麼（只記這個月觸發了幾次）。</li>
+<li><strong>打字太兇</strong>：只計算按鍵次數，<strong>不記錄按了哪個鍵，也不會傳出去</strong>；計算用的鍵盤掛鉤只在這個開關打開時才裝上，關掉就拿掉，全螢幕時也不數。</li>
+</ul>
+<h3 id="5">5. 匿名統計（可以關掉）</h3>
+<p>我們想知道大家喜歡哪一櫃公仔、哪一櫃留得住人，用來決定下一櫃要做什麼。所以本 App 會送出下面兩次、各一筆的匿名統計：</p>
+<table>
+<thead>
+<tr>
+<th>什麼時候</th>
+<th>送出的內容（全部就這些）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你第一次完成設定時（只一次）</td>
+<td>事件名稱 <code>lineup_pick</code>、你選的櫃（續命小隊／窩伴小世界／自己做的）、App 版本、平台（Windows 安裝版、Microsoft Store 版、VS Code 擴充套件、Mac）</td>
+</tr>
+<tr>
+<td>第一次設定滿 7 天後，你第一次打開本 App 時（只一次）</td>
+<td>事件名稱 <code>day7_active</code>、當時開著哪一櫃、App 版本、平台</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>送到哪裡</strong>：Google Analytics 4（Google LLC 提供的統計服務），網址 <code>https://www.google-analytics.com/mp/collect</code>。資料會依 Google 的規定處理：https://policies.google.com/privacy 。我們在 Google Analytics 只看得到「各櫃被選了幾次、7 天後還有幾個在用」這種加總數字。</li>
+<li><strong>不送什麼</strong>：不送姓名、Email、使用者名稱、電腦名稱、檔案路徑、視窗標題、按鍵、照片、行事曆，也不送任何固定的裝置或使用者 ID。每一筆統計都附一個<strong>每次重新產生、用完就丟的亂數</strong>（Google Analytics 規定一定要有），本 App 不存這個亂數，所以兩筆統計之間、統計跟你之間都對不起來。</li>
+<li><strong>IP 位址</strong>：任何網路連線都會讓對方看到你的 IP 位址；Google 表示 Google Analytics 4 不記錄、不儲存 IP 位址。</li>
+<li><strong>保存期限</strong>：2 個月，之後由 Google Analytics 自動刪除。</li>
+<li><strong>怎麼關</strong>：右鍵公仔櫃或收起來的小紙箱／小書包，打開「公仔小屋 → 設定」，取消勾選「匿名回報選了哪一櫃」。關掉之後就完全不送。第一次設定的第一頁最下面也有一行說明。</li>
+<li>送不出去（例如沒有網路）就算了，不會重試、不會先存起來晚點再送。</li>
+</ul>
+<h3 id="6-app">6. 本 App 會連到的網路位址</h3>
+<p>本 App 沒有自己的伺服器。只有下面這些連線，而且都不帶你的個人資料：</p>
+<table>
+<thead>
+<tr>
+<th>連到哪裡</th>
+<th>為什麼</th>
+<th>什麼時候</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你自己貼上的學校行事曆網址</td>
+<td>下載你的行事曆</td>
+<td>你設定了才會連，大約每隔一段時間更新一次</td>
+</tr>
+<tr>
+<td><code>https://www.google.com/</code>（只問時間，HEAD 請求）或你搶票／搶課頁面的網站</td>
+<td>比對你的電腦時間準不準</td>
+<td>你設了搶票／搶課提醒時</td>
+</tr>
+<tr>
+<td><code>1.1.1.1</code>、<code>8.8.8.8</code>（443 埠，只試連線、不傳資料）</td>
+<td>判斷網路有沒有斷</td>
+<td>開著的時候，每 10 秒左右</td>
+</tr>
+<tr>
+<td><code>https://www.google-analytics.com/mp/collect</code></td>
+<td>匿名統計（第 5 節）</td>
+<td>第一次設定完成時、滿 7 天第一次打開時，各一次；關掉就不連</td>
+</tr>
+</tbody>
+</table>
+<p>你點公仔打開的連結（例如上課連結、作業頁面），是用你自己的預設瀏覽器打開，之後就跟本 App 無關。</p>
+<h3 id="7-vs-code">7. 跟 VS Code 擴充套件一起用時</h3>
+<p>本 App 另外有一個 VS Code 擴充套件（要另外安裝，不在 Microsoft Store 版裡）。如果你裝了，它會透過你電腦上的本機通道（named pipe）把提醒送給本 App 顯示。擴充套件的天氣、Jira、GitLab 功能是你在 VS Code 裡自己設定才會用：天氣會連 <code>wttr.in</code>、<code>api.met.no</code>（只送你設定的城市或座標）；Jira 用你自己填的 API token（存在 VS Code 的加密儲存區）；GitLab 用你電腦上已登入的 <code>glab</code> 工具。這些都只連到你指定的服務，不經過我們。</p>
+<h3 id="8">8. 兒童</h3>
+<p>本 App 不收集任何人的個人資料（匿名統計不含個人資料，見第 5 節），也沒有任何線上互動功能。</p>
+<h3 id="9">9. 政策更新</h3>
+<p>本 App 新增功能、改變資料的處理方式時，我們會更新這份政策並修改上面的生效日期。</p>
+<h3 id="10">10. 聯絡我們</h3>
+<p>有任何問題：a96020183@gmail.com</p>
+<hr />
+<h2 id="wowo-pals-privacy-policy">WoWo Pals Privacy Policy</h2>
+<p>Effective date: 2026-11-18</p>
+<p>WoWo Pals ("the app") shows small characters on your Windows desktop. This policy explains what the app reads, what it stores, and what it connects to.</p>
+<h3 id="in-one-sentence">In one sentence</h3>
+<p>The app has <strong>no accounts and no ads</strong>; your settings, photos and calendars stay on your own computer. The only thing it sends is a small <strong>anonymous statistic</strong> — which character family you picked at first setup and which one is still open 7 days later, with nothing that can identify you (see section 5). You can <strong>turn it off</strong> in the buddy house menu; once off, nothing is sent.</p>
+<h3 id="1-what-we-do-not-collect">1. What we do not collect</h3>
+<ul>
+<li>We run no servers of our own; the anonymous statistic goes only to Google Analytics (section 5) and contains only the fields listed there.</li>
+<li>We do not collect your name, email, phone number, location, device identifiers, computer name or user name.</li>
+<li>We do not record which keys you press, what you type or which websites you visit.</li>
+<li>The app uses no advertising or crash-reporting services and does not call any AI service.</li>
+</ul>
+<h3 id="2-data-stored-on-your-computer">2. Data stored on your computer</h3>
+<p>The app stores the following only on your computer, in <code>%LOCALAPPDATA%\DeskPals</code> (the Microsoft Store version may use the private app-data folder Windows provides for it):</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Your settings (chosen family, cabinet position, feature switches, reminder times)</td>
+<td>Keep your choices</td>
+</tr>
+<tr>
+<td>Buddy affection, pat counts, today's summary (e.g. number of focus sessions)</td>
+<td>Buddy reactions and the daily summary</td>
+</tr>
+<tr>
+<td>Your own reminders, ticket/course-registration times, exam dates, "assignment done" marks</td>
+<td>Remind you on time</td>
+</tr>
+<tr>
+<td>The school calendar links you paste in, and a cached copy of those calendars</td>
+<td>Class and assignment reminders</td>
+</tr>
+<tr>
+<td>Photos you use to make a buddy, and the resulting buddy images</td>
+<td>Show your buddy</td>
+</tr>
+<tr>
+<td>Prank counters (e.g. how many times the shopping prank fired this month), and which pranks you have read the explanation for and switched on</td>
+<td>Buddy lines; not asking again</td>
+</tr>
+<tr>
+<td>The anonymous-statistics switch, the date of first setup, and whether each of the two events was sent (<code>anon-stats.txt</code>)</td>
+<td>Send each event once and know when day 7 is; <strong>no ID is stored</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Also:
+- A diagnostic log is written to <code>%TEMP%\desk-pals.log</code> (times and app events, e.g. "reminder shown"; occasionally a website host name such as the one used for the clock check. No calendar contents, photos or window contents. The file stays on your computer).
+- When you make a share GIF it is saved to "Pictures\Desk Pals"; sharing it is up to you.
+- When you export a buddy, it (including the photo you used) is saved as a <code>.deskpal</code> file where you choose.</p>
+<p><strong>Deleting your data</strong>: uninstall the app from Windows Settings &gt; Apps (the Microsoft Store version's private folder is removed with it); to remove other data too, delete the <code>%LOCALAPPDATA%\DeskPals</code> folder (and any GIFs in "Pictures\Desk Pals"). Anonymous statistics that were already sent carry no ID that could be matched to you, so we cannot delete them per person; Google Analytics deletes them automatically after the retention period (2 months).</p>
+<p><strong>About calendar links</strong>: many school and Google Calendar links are private links — anyone who has one can see your schedule. The app only uses the link to read your calendar and never shares it. The link is stored as plain text in the folder above, so please do not share that folder.</p>
+<h3 id="3-information-the-app-reads-on-your-computer-used-locally-only-not-stored-or-sent">3. Information the app reads on your computer (used locally only; not stored or sent)</h3>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Why</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Position and size of other windows</td>
+<td>So buddies can walk on top of them</td>
+<td>While running</td>
+</tr>
+<tr>
+<td>Window titles</td>
+<td>Detect screen sharing or presentations so buddies hide; the shopping prank checks whether the foreground window is a shopping site</td>
+<td>While running; shopping prank only when switched on</td>
+</tr>
+<tr>
+<td>Mouse position, time since last keyboard/mouse input</td>
+<td>Buddies look at you; time away counts as a break</td>
+<td>While running</td>
+</tr>
+<tr>
+<td>Names of new files in your Downloads folder</td>
+<td>"Download finished" heads-up</td>
+<td>While running</td>
+</tr>
+<tr>
+<td>CPU, memory, free disk space, names of running programs</td>
+<td>"PC status" heads-ups (e.g. which program uses the most CPU); detect whether an AI coding tool is running</td>
+<td>While running</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-pranks-all-off-by-default-you-switch-each-one-on-yourself-in-the-buddy-house-menu-under-fun-pranks">4. Pranks (<strong>all off by default</strong>; you switch each one on yourself in the buddy house menu under Fun &gt; Pranks)</h3>
+<p>The first time you switch one on, an explanation appears first — what it does, how to stop it and what it does not do. It only starts after you press "OK, turn it on"; "Not now" leaves it off. You can switch it off again at any time in the same place. (If you upgraded from an older version, your previous switch settings are kept.)</p>
+<ul>
+<li><strong>Pointer grab</strong>: after your mouse has been idle for a while, a buddy drags the pointer a short distance; it lets go as soon as you move the mouse or press a key.</li>
+<li><strong>After-work tidy-up</strong>: after work hours, minimizes a few front windows (never closes any program); click a buddy to bring them all back. The "window picture" used for the animation is kept in memory only and discarded afterwards — never saved or sent.</li>
+<li><strong>Shopping police</strong>: only checks whether the foreground window title is a shopping site; does not record what you browse (only how many times it fired this month).</li>
+<li><strong>Typing too hard</strong>: only counts key presses. It <strong>does not record which key you pressed and sends nothing</strong>. The keyboard hook used for counting is installed only while this switch is on and removed when you switch it off; it also pauses during full-screen apps.</li>
+</ul>
+<h3 id="5-anonymous-statistics-you-can-turn-this-off">5. Anonymous statistics (you can turn this off)</h3>
+<p>We want to know which character families people like and which ones they keep using, to decide what to make next. So the app sends these two anonymous events, once each:</p>
+<table>
+<thead>
+<tr>
+<th>When</th>
+<th>What is sent (this is everything)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>When you finish first setup (once)</td>
+<td>Event name <code>lineup_pick</code>, the family you picked (Squad / Woban / your own), app version, platform (Windows installer, Microsoft Store, VS Code extension, Mac)</td>
+</tr>
+<tr>
+<td>The first time you open the app at least 7 days after first setup (once)</td>
+<td>Event name <code>day7_active</code>, the family open at that moment, app version, platform</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Where it goes</strong>: Google Analytics 4, a statistics service by Google LLC, at <code>https://www.google-analytics.com/mp/collect</code>. Google processes it under its own policy: https://policies.google.com/privacy . In Google Analytics we only see totals such as "how many people picked each family" and "how many still use it after 7 days".</li>
+<li><strong>What is not sent</strong>: no name, email, user name, computer name, file paths, window titles, key presses, photos or calendars, and no fixed device or user ID. Each event carries a <strong>random number generated fresh for that one event</strong> (Google Analytics requires one). The app does not store it, so the two events cannot be linked to each other or to you.</li>
+<li><strong>IP address</strong>: any internet connection reveals your IP address to the server; Google states that Google Analytics 4 does not log or store IP addresses.</li>
+<li><strong>Retention</strong>: 2 months, after which Google Analytics deletes the data automatically.</li>
+<li><strong>How to turn it off</strong>: right-click the cabinet (or the folded-up mini box / backpack) to open the buddy house menu, go to Settings and untick "anonymous family statistics" (匿名回報選了哪一櫃). Once off, nothing is sent. The first page of the setup window also mentions this.</li>
+<li>If sending fails (for example, no internet), the app simply gives up: no retries and nothing is queued for later.</li>
+</ul>
+<h3 id="6-network-connections">6. Network connections</h3>
+<p>The app has no server of its own. It only makes these connections, none of which carry your personal data:</p>
+<table>
+<thead>
+<tr>
+<th>Destination</th>
+<th>Why</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>School calendar links you paste in</td>
+<td>Download your calendar</td>
+<td>Only if you set them; refreshed periodically</td>
+</tr>
+<tr>
+<td><code>https://www.google.com/</code> (HEAD request for the time only) or the site of your ticket/registration page</td>
+<td>Check whether your PC clock is accurate</td>
+<td>When you set a ticket/registration countdown</td>
+</tr>
+<tr>
+<td><code>1.1.1.1</code>, <code>8.8.8.8</code> (port 443, connection test only, no data sent)</td>
+<td>Detect whether the internet is down</td>
+<td>While running, about every 10 seconds</td>
+</tr>
+<tr>
+<td><code>https://www.google-analytics.com/mp/collect</code></td>
+<td>Anonymous statistics (section 5)</td>
+<td>Once at first setup and once on the first launch after 7 days; never when switched off</td>
+</tr>
+</tbody>
+</table>
+<p>Links you open by clicking a buddy (class links, assignment pages) open in your own default browser.</p>
+<h3 id="7-with-the-vs-code-extension">7. With the VS Code extension</h3>
+<p>There is also a separate VS Code extension (installed separately; not part of the Microsoft Store version). If installed, it sends reminders to the app through a local named pipe on your computer. Its weather, Jira and GitLab features work only if you set them up in VS Code: weather connects to <code>wttr.in</code> and <code>api.met.no</code> (sending only the city or coordinates you set); Jira uses the API token you enter (kept in VS Code's encrypted secret storage); GitLab uses the <code>glab</code> tool already signed in on your computer. These connect only to the services you choose, never through us.</p>
+<h3 id="8-children">8. Children</h3>
+<p>The app collects no personal information from anyone (the anonymous statistics contain none; see section 5) and has no online interaction features.</p>
+<h3 id="9-changes">9. Changes</h3>
+<p>We will update this policy and its effective date when features or data handling change.</p>
+<h3 id="10-contact">10. Contact</h3>
+<p>Questions: a96020183@gmail.com</p></body></html>
